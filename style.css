@@ -1,0 +1,185 @@
+/* ------0) Toute la page HTML ----------*/
+.letout {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+/*/////////////////////////////////////*/
+
+
+/* ------ 1) Partie gauche ------------- */
+.conteneur__gauche {
+    margin-right: -35%;
+}
+
+.header__gauche {
+    background-color: #f9f9f9;
+    width: 60%;
+    border-bottom: solid 1px #eaeaea;
+}
+
+.h1__gauche {
+    margin: 0;
+    margin-left: 3%;
+    font-weight: 700;
+    font-size: 180%;
+    padding-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+/*/////////////////////////////////////*/
+
+/*------------ A) MAIN -------------- */
+main {
+    width: 77%;
+}
+
+.article__groupe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75%;
+}
+
+.article {
+    padding: 6% 6% 5% 5%;
+}
+
+.article__2 {
+    margin-right: -7%;
+}
+
+.article__3,
+.article__4 {
+    padding: 6% 6% 0% 5%;
+
+}
+
+.article__tag--div {
+    letter-spacing: 1px;
+}
+
+.article__tag {
+    color: white;
+    border-radius: 6px;
+    padding: 2%;
+    font-weight: 600;
+    font-size: 75%;
+}
+
+.article__tag--news {
+    background-color: #98DC62;
+}
+
+.article__tag--team {
+    background-color: #DC5E53;
+}
+
+.article__tag--work {
+    background-color: #0766F0;
+}
+
+.article__titre {
+    font-size: 110%;
+    padding: 5% 0% 3% 0%;
+}
+
+.article__icone {
+    width: 10%;
+    height: 0%;
+}
+
+.article__info {
+    display: flex;
+    gap: 2%;
+}
+
+.article__info--auteur {
+    font-size: 78%;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.article__info--date {
+    color: grey;
+    font-weight: lighter;
+    font-style: light;
+    font-size: 100%;
+}
+
+.article__para {
+    width: 110%;
+    margin-top: 5%;
+    padding-right: 7%;
+}
+
+.article__lien {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 110%;
+}
+
+.article__1 {
+    border-right: solid 1px #eaeaea;
+    border-bottom: solid 1px #eaeaea;
+}
+
+.article__2 {
+    border-bottom: solid 1px #eaeaea;
+}
+
+.article__3 {
+    border-right: solid 1px #eaeaea;
+}
+/*/////////////////////////////////////*/
+
+/* --------------- 2) Partie Droite ----------------------- */
+.conteneur__droit--photo {
+    background-image: url(../images/promeo_compiegne--vd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: white;
+}
+
+.logotitre__droit {
+    background-image: url(../images/logo_promeo.svg);
+    background-repeat: no-repeat;
+    background-size: 12%;
+    background-position: 2% 25%;
+    height: 15em;
+}
+
+.titre__droit--span {
+    margin-left: 15%;
+    line-height: 1em;
+    padding-top: 7%;
+    font-size: 101%;
+}
+
+.span__display {
+    display: flex;
+}
+
+.bandeau {
+    background-color: rgba(220, 220, 220, 0.2);
+    margin: 15% 2% 0% 2%;
+    padding: 1%;
+}
+
+.titre__droit--ita {
+    font-weight: 100;
+    font-style: italic;
+    font-style: light;
+    font-size: 69%;
+    text-shadow: black 1px 1px 1px;
+}
+
+.texte__droit--para {
+    text-shadow: black 1px 1px 1px;
+}
+
+.mentions {
+    margin-top: 28%;
+    margin-left: 2%;
+    display: flex;
+    gap: 3%;
+}
+/*/////////////////////////////////////*/
